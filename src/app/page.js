@@ -4,7 +4,7 @@ import Do from "@/components/home/Do";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className=" container mx-auto">
     <Banner />
     <Do />
      
