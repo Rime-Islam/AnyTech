@@ -28,8 +28,8 @@ const Navber = () => {
   };
 
     return (
-      <nav className="bg-white shadow-md ">
-      <div className="container mx-auto flex justify-evenly items-center py-4 px-6">
+      <nav className="bg-white shadow-md px-[6vw]">
+      <div className=" flex justify-evenly items-center py-4 px-6">
         {/* Logo */}
         <Link href="/" className="py-2">
           <Image src={logo2} height={80} width={180} alt="Logo" />

@@ -28,8 +28,8 @@ const SecondNavber = () => {
     };
   
       return (
-        <nav className="bg-[#2A81F0] shadow-md ">
-        <div className="container mx-auto flex justify-evenly items-center py-4 px-6">
+        <nav className="bg-[#2A81F0] shadow-md px-[6vw]">
+        <div className="  flex justify-evenly items-center py-4 px-6">
           {/* Logo */}
           <Link href="/" className="py-2">
             <Image src={logo} height={80} width={180} alt="Logo" />
@@ -40,7 +40,7 @@ const SecondNavber = () => {
           <div className="relative">
        
           <div className="dropdown dropdown-hover">
-    <div className="flex items-center text-white gap-3 px-3 rounded-full text-blue-600">
+    <div className="flex items-center text-white gap-3 px-3 rounded-full">
             <span >Solutions</span> <IoIosArrowDown className="w-5 h-3 "/>
           </div>
     <ul tabIndex={0} className="dropdown-content menu bg-white rounded-box z-[1] w-52 p-2 shadow">
@@ -98,7 +98,7 @@ const SecondNavber = () => {
           </div>
   
           {/* Language Selector & Button */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center ">
 
             {/* Contact Us Button */}
             <Link
