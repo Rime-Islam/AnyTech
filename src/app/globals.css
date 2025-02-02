@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@layer utilities {
+  .clip-banner {
+    clip-path: polygon(0 0, 100% 0, 100% 76%, 0 90%);
+  }
+}

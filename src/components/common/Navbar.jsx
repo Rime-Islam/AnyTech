@@ -42,7 +42,7 @@ const Navbar = () => {
       <div>
         {/* Second Navbar (Blue) - Initially Visible, Appears When at the Top */}
         <div
-          className={`fixed top-0 left-0 w-full bg-blue-600 transition-all duration-500 transform ${
+          className={`fixed z-50 top-0 left-0 w-full bg-blue-600 transition-all duration-500 transform ${
             scrollingUp ? (showWhiteNavbar ? "opacity-0 -translate-y-full pointer-events-none" : "opacity-100 translate-y-0") : (stop ? "opacity-0 -translate-y-full pointer-events-none" : "opacity-100 translate-y-0")
           }`}
         >
@@ -51,7 +51,7 @@ const Navbar = () => {
   
         {/* White Navbar - Appears When Scrolling Up, Disappears When at the Top */}
         <div
-          className={`fixed top-0 left-0 w-full bg-white shadow-md transition-all duration-500 transform ${
+          className={`fixed z-50 top-0 left-0 w-full bg-white shadow-md transition-all duration-500 transform ${
             showWhiteNavbar ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full pointer-events-none"
           }`}
         >

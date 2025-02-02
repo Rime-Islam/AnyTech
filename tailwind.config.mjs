@@ -14,4 +14,7 @@ export default {
     },
   },
   plugins: [require('daisyui')],
+  safelist: [
+    'clip-banner', // Add to safelist if necessary
+  ],
 };

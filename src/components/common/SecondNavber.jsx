@@ -28,7 +28,7 @@ const SecondNavber = () => {
     };
   
       return (
-        <nav className="bg-[#2A81F0] shadow-md px-[6vw]">
+        <nav className="bg-transparent px-[6vw]">
         <div className="  flex justify-evenly items-center py-4 px-6">
           {/* Logo */}
           <Link href="/" className="py-2">

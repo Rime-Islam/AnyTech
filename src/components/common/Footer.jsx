@@ -6,12 +6,12 @@ import Link from "next/link";
 const Footer = () => {
     return (
         <div className=" ">
-<div className="bg-[#052045] py-[8vh] flex ">
+<div className="bg-[#052045] py-[8vh] lg:flex ">
 <Link href="/" className="py-2 flex-1 ">
            <div className="flex justify-center "> <Image className="ml-5" src={logo} height={80} width={180} alt="Logo" /></div>
           </Link>
           <div className="flex-1">
-<div className="flex ml-[8vw]">
+<div className="md:flex ml-[8vw]">
 <div className="font-bold  text-[#41E3E5] border-r border-[#164377] py-4 px-6">Our Solutions</div>
 <div className="flex pl-6 py-4 gap-6 ">
 <Link href="anycaas"><h1 className="text-[#41E3E5] hover:text-[#277AE3]">AnyCaaS</h1></Link>

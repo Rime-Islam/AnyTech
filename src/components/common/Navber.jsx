@@ -28,8 +28,8 @@ const Navber = () => {
   };
 
     return (
-      <nav className="bg-white shadow-md px-[6vw]">
-      <div className=" flex justify-evenly items-center py-4 px-6">
+      <nav className="bg-white shadow-md px-[6vw] relative z-10 ">
+      <div className="flex justify-evenly items-center py-4 px-6">
         {/* Logo */}
         <Link href="/" className="py-2">
           <Image src={logo2} height={80} width={180} alt="Logo" />
@@ -37,7 +37,7 @@ const Navber = () => {
 
         {/* Navigation Links */}
         <div className="hidden lg:flex space-x-6">
-        <div className="relative">
+        <div className="">
      
         <div className="dropdown dropdown-hover">
   <div className="flex items-center gap-3 px-3 rounded-full text-blue-600">
